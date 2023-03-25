@@ -16,10 +16,14 @@ if (a > b)
     Console.Write("min = ");
     Console.WriteLine(b);
 }
-else
+else if (b > a)
 {
     Console.Write("max = ");
     Console.WriteLine(b);
     Console.Write("min = ");
     Console.WriteLine(a);
+}
+else
+{
+    Console.WriteLine("Введенные два числа равны!");
 }
